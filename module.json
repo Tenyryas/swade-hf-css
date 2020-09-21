@@ -1,0 +1,17 @@
+{
+  "name": "swade-hf-css",
+  "title": "SWADE Hellfrost Theme",
+  "description": "<p>An Hellfrost character sheet theme for SWADE</p>",
+  "version": "1.0.0",
+  "author": "Kyane, SalieriC",
+  "systems": ["swade"],
+  "scripts": [],
+  "esmodules": [],
+  "styles": ["swade_hf.css"],
+  "packs": [],
+  "url": "https://github.com/Tenyryas/swade-hf-css",
+  "manifest": "https://raw.githubusercontent.com/Tenyryas/swade-hf-css/master/module.json",
+  "download": "https://github.com/Tenyryas/swade-book-css/raw/v1.0.0/swade-hf-css.zip",
+  "compatibleCoreVersion" : "0.6.6",
+  "minimumCoreVersion": "0.6.6"
+}
