@@ -1,2 +1,2 @@
-# swade-hf-css
+# SWADE Hellfrost Theme
 A SWADE CSS theme for Hellfrost
