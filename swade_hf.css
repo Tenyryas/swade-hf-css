@@ -28,14 +28,14 @@
 .swade.sheet input[type=text]{
     background: rgba(0, 0, 0, 0.1);
 }
-.swade.sheet .checkmark {
+.swade.sheet .checkmark, .swade-official .checkmark {
     background-color: rgba(55, 110, 140, 1);
 }
-.swade.sheet .check-container:hover input ~ .checkmark {
+.swade.sheet .check-container:hover input ~ .checkmark, .swade-official .check-container:hover input ~ .checkmark {
     background-color: rgba(32, 68, 97, 1);
     border: 1px solid #DEE8ED;
 }
-.swade.sheet .check-container:hover input ~ .checkmark:after {
+.swade.sheet .check-container:hover input ~ .checkmark:after, .swade-official .check-container:hover input ~ .checkmark:after {
     left: 5px;
     top: 1px;
     width: 5px;
@@ -45,18 +45,17 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.swade.sheet .check-container input:checked ~ .checkmark {
+.swade.sheet .check-container input:checked ~ .checkmark, .swade-official .check-container input:checked ~ .checkmark {
     background-color: rgba(55, 110, 140, 1);
 }
-.swade.sheet .check-container:hover input:checked ~ .checkmark {
+.swade.sheet .check-container:hover input:checked ~ .checkmark, .swade-official .check-container:hover input:checked ~ .checkmark {
     background-color: rgba(32, 68, 97, 1);
 }
-.swade.sheet .check-container .checkmark:after {
+.swade.sheet .check-container .checkmark:after, .swade-official .check-container .checkmark:after {
     border: solid white;
     border-width: 0 3px 3px 0;
 }
-.swade.sheet .sheet-body .editor {
-}
+
 .swade.sheet.item .sheet-body .editor{
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
@@ -193,6 +192,17 @@ textarea#chat-message {
 .swade.chat-card .card-header:hover {
     background: #81a8bd;
 }
+
+.swade.chat-card .card-header h3 {
+    flex: 1;
+    margin: 0;
+    line-height: 40px;
+    color: #111;
+    overflow: hidden;
+    height: 36px;
+    word-break: break-all;
+}
+
 .swade.chat-card .card-header img {
     flex: 0 0 36px;
     margin-left: 5px;
@@ -203,7 +213,100 @@ textarea#chat-message {
 }
 .swade.chat-card .card-header a {
     color: #fff;
+    vertical-align: text-bottom;
 }
 .swade.chat-card .card-header a:hover {
     text-shadow: 0 0 7px #fff;
+}
+
+
+
+/* 
+
+    SWADE OFFICIAL 
+
+*/
+
+.swade-official .window-content {
+    background-image: url(./ui/parchment2.jpg);
+}
+
+
+.swade-official .header {
+    background-image: url(./ui/header_bg.webp);
+    background-size: 105%;
+}
+
+.swade-official .tabs .active {
+    color: #204461;
+}
+
+.swade-official .section-header {
+    color: #204461;
+}
+
+.swade-official .armor-display {
+    background-image: url(./ui/sheet_armor.svg);
+    color: #204461;
+    padding-bottom: 4px;
+}
+
+.swade-official .parry-display {
+    color: #204461;
+    background-image: url(./ui/sheet_parry.svg);
+}
+
+.swade-official #conviction input, 
+.swade-official .derived input, 
+.swade-official .additional-stats input, 
+.swade-official .currency input {
+    background-color: rgb(55, 110, 140);
+    color: white;
+}
+
+.swade-official .section-header .controls {
+    color: rgba(55, 110, 140, 1);
+}
+
+.swade-official .item-create {
+    color: white;
+}
+
+section.inventory header > span {
+    color: white;
+}
+
+section.inventory span.header-name {
+    padding-left: 12px;
+}
+
+.swade-official .description .char-img-container {
+    background-image: url(./ui/char-bg.webp);
+}
+
+.swade-official .description .char-img-container img {
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.swade-official .note-box .note-header {
+    background-image: url(./ui/skills_header.webp);
+}
+
+.swade-official .note-box .note-main {
+    background-image: url(./ui/skills_bg.webp);
+}
+
+.swade-official .note-box .note-footer {
+    background-image: url(./ui/skills_footer.webp);
+}
+
+/*
+figure.gridcell.branding {
+    content: url();
+}*/
+
+.swade-official .charname-container input[type] {
+    background: transparent;
+    min-width: 490px;
 }
