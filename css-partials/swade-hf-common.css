@@ -22,7 +22,7 @@
 .swade .check-container:hover input ~ .checkmark, 
 .swade-official .check-container:hover input ~ .checkmark {
     background-color: var(--dark-contrast-colour);
-    border: 1px solid #DEE8ED;
+    border: 1px solid var(--checkbox-rim-colour);
 }
 
 .swade .check-container:hover input~.checkmark, 
@@ -68,7 +68,7 @@
 .swade-official ::-webkit-scrollbar-thumb {
     outline: none;
     border-radius: 3px;
-    background: #81a8bd;
+    background: var(--scroll-bar-inner);
     border: 1px solid var(--dark-contrast-colour);
 }
 
@@ -106,7 +106,7 @@ textarea#chat-message {
     box-shadow: 0px 15px 10px -15px rgba(0,0,0,1);
 }
 .swade.chat-card .card-header:hover {
-    background: #81a8bd;
+    background: var(--scroll-bar-inner);
 }
 
 .swade.chat-card .card-header h3 {
