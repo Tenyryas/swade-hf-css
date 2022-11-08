@@ -18,15 +18,15 @@
 }
 
 .swade-official .section-header {
-    color: var(--dark-blue);
+    color: var(--dark-contrast-colour);
 }
 
 .swade-official .section-header .controls {
-    color: var(--dark-blue);
+    color: var(--dark-contrast-colour);
 }
 
 .swade-official a:hover {
-    text-shadow: 0 0 8px var(--dark-blue);
+    text-shadow: 0 0 8px var(--dark-contrast-colour);
 }
 
 /*********************************
@@ -36,7 +36,7 @@
 *********************************/
 
 .swade-official .tabs .active {
-    color: var(--dark-blue);
+    color: var(--dark-contrast-colour);
 }
 
 .swade-official .sub-tabs {
@@ -53,12 +53,12 @@
 }
 
 .swade-official .sub-tabs .item.active {
-    color: var(--dark-blue);
+    color: var(--dark-contrast-colour);
     text-shadow: none;
 }
 
 .swade-official .sub-tabs .item:hover {
-    text-shadow: 0 0 8px var(--dark-blue);
+    text-shadow: 0 0 8px var(--dark-contrast-colour);
 }
 
 /*********************************
@@ -69,12 +69,12 @@
 
 .swade-official .armor-display {
     background-image: url(../ui/sheet_armor.svg);
-    color: var(--dark-blue);
+    color: var(--dark-contrast-colour);
     padding-bottom: 4px;
 }
 
 .swade-official .parry-display {
-    color: var(--dark-blue);
+    color: var(--dark-contrast-colour);
     background-image: url(../ui/sheet_parry.svg);
 }
 
@@ -102,15 +102,15 @@
 .swade-official .additional-stats input, 
 .swade-official .currency input,
 .swade-official .powers .pp-counter input {
-    background-color: var(--blue);
-    color: var(--white);
+    background-color: var(--box-colour);
+    color: var(--light-text-colour);
 }
 
 .swade-official button:hover,
 .swade-official button:focus,
 .swade-official input[type]:hover, 
 .swade-official input[type]:focus {
-    box-shadow: 0 0 5px var(--dark-blue);
+    box-shadow: 0 0 5px var(--dark-contrast-colour);
     text-shadow: 0 0 8px var(--darkblue);
 }
 
@@ -129,12 +129,12 @@
 .swade-official input[type=number]:disabled, .swade-official input[type=text]:disabled {
     background: var(--black-point-one);
     border: 1px solid transparent;
-    color: var(--dark-blue);
+    color: var(--dark-contrast-colour);
     font-weight: bold;
 }
 
 .swade-official .primary .attribute select:hover {
-    box-shadow: var(--dark-blue-box-shadow);
+    box-shadow: var(--dark-contrast-colour-box-shadow);
 }
 
 /*********************************
@@ -144,28 +144,28 @@
 *********************************/
 
 .swade-official .item-create {
-    color: var(--white);
+    color: var(--light-text-colour);
 }
 
 .swade-official .advance-add .item-create {
-    color: var(--dark-blue);
+    color: var(--dark-contrast-colour);
 }
 
 .swade-official .item-create:focus, 
 .swade-official .item-create:hover {
-    color: var(--white);
+    color: var(--light-text-colour);
 }
 
 .swade-official .item-create:focus, 
 .swade-official .item-create:hover,
 .swade-official button:hover {
-    text-shadow: 0 0 8px var(--dark-blue);
-    box-shadow: 0 0 5px var(--dark-blue);
+    text-shadow: 0 0 8px var(--dark-contrast-colour);
+    box-shadow: 0 0 5px var(--dark-contrast-colour);
 }
 
 section.inventory header > span,
 .swade-official .effects.active .effect-header > span {
-    color: var(--white);
+    color: var(--light-text-colour);
 }
 
 section.inventory span.header-name {

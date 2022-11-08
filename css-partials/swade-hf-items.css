@@ -9,7 +9,7 @@
 
 .swade-app input[type=checkbox], 
 .swade-app input[type=radio] {
-    accent-color: var(--blue);
+    accent-color: var(--box-colour);
 }
 
 .swade-app input[type=checkbox]:focus, 
@@ -17,7 +17,7 @@
 .swade-app input[type=radio]:focus, 
 .swade-app input[type=radio]:hover {
     box-shadow: none;
-    filter: drop-shadow(var(--dark-blue-box-shadow));
+    filter: drop-shadow(var(--dark-contrast-colour-box-shadow));
 }
 
 .swade-app input[type=checkbox]:checked:focus, 
@@ -25,7 +25,7 @@
 .swade-app input[type=radio]:checked:focus, 
 .swade-app input[type=radio]:checked:hover {
     box-shadow: none;
-    filter: drop-shadow(var(--dark-blue-box-shadow));
+    filter: drop-shadow(var(--dark-contrast-colour-box-shadow));
 }
 
 /*********************************
@@ -38,15 +38,15 @@
 .swade-app input[type]:hover,
 .swade-app select:focus,
 .swade-app select:hover {
-    box-shadow: var(--dark-blue-box-shadow);
+    box-shadow: var(--dark-contrast-colour-box-shadow);
 }
 
 .swade-app input[type=number], .swade-app input[type=text], .swade-app select {
-    border-bottom: 1px solid var(--dark-blue);
+    border-bottom: 1px solid var(--dark-contrast-colour);
 }
 
 .swade-item-sheet .item-detail {
-    border-bottom: 1px solid var(--dark-blue);
+    border-bottom: 1px solid var(--dark-contrast-colour);
 }
 
 /*********************************
@@ -60,25 +60,25 @@
 }
 
 .swade-item-sheet .header .add-button {
-    color: var(--dark-blue);
+    color: var(--dark-contrast-colour);
 }
 
 .swade-app .tabs .active {
-    color: var(--dark-blue);
+    color: var(--dark-contrast-colour);
 }
 
 .swade-app .tabs .item:focus,
 .swade-app .tabs .item:hover {
-    text-shadow: var(--dark-blue-text-shadow);
+    text-shadow: var(--dark-contrast-colour-text-shadow);
 }
 
 .swade-item-sheet .header .add-button:focus, 
 .swade-item-sheet .header .add-button:hover {
 
-    text-shadow: var(--dark-blue-box-shadow);
+    text-shadow: var(--dark-contrast-colour-box-shadow);
 }
 
 .swade-app button:hover {
-    text-shadow: var(--dark-blue-box-shadow);
-    box-shadow: var(--dark-blue-box-shadow);
+    text-shadow: var(--dark-contrast-colour-box-shadow);
+    box-shadow: var(--dark-contrast-colour-box-shadow);
 }
