@@ -6,7 +6,7 @@
 .swade-official h3,
 .swade-app h2,
 .swade-app h3 {
-    border-bottom: 1px solid var(--blue);
+    border-bottom: 1px solid var(--box-colour);
 }
 
 /*********************************
@@ -17,17 +17,17 @@
 
 .swade .checkmark,
 .swade-official .checkmark {
-    background-color: var(--blue);
+    background-color: var(--box-colour);
 }
 .swade .check-container:hover input ~ .checkmark, 
 .swade-official .check-container:hover input ~ .checkmark {
-    background-color: var(--dark-blue);
-    border: 1px solid #DEE8ED;
+    background-color: var(--dark-contrast-colour);
+    border: 1px solid var(--checkbox-rim-colour);
 }
 
 .swade .check-container:hover input~.checkmark, 
 .swade-official .check-container:hover input~.checkmark {
-    box-shadow: 0 0 5px var(--dark-blue);
+    box-shadow: 0 0 5px var(--dark-contrast-colour);
 }
 
 .swade .check-container:hover input ~ .checkmark:after, 
@@ -44,15 +44,15 @@
 }
 .swade .check-container input:checked ~ .checkmark, 
 .swade-official .check-container input:checked ~ .checkmark {
-    background-color: var(--blue);
+    background-color: var(--box-colour);
 }
 .swade .check-container:hover input:checked ~ .checkmark, 
 .swade-official .check-container:hover input:checked ~ .checkmark {
-    background-color: var(--dark-blue);
+    background-color: var(--dark-contrast-colour);
 }
 .swade .check-container .checkmark:after, 
 .swade-official .check-container .checkmark:after {
-    border: solid var(--white);
+    border: solid var(--light-text-colour);
     border-width: 0 3px 3px 0;
 }
 
@@ -68,8 +68,8 @@
 .swade-official ::-webkit-scrollbar-thumb {
     outline: none;
     border-radius: 3px;
-    background: #81a8bd;
-    border: 1px solid var(--dark-blue);
+    background: var(--scroll-bar-inner);
+    border: 1px solid var(--dark-contrast-colour);
 }
 
 
@@ -97,7 +97,7 @@ textarea#chat-message {
 *********************************/
 
 .swade.chat-card .card-header {
-    background: var(--dark-blue);
+    background: var(--dark-contrast-colour);
     margin-left: -5px;
     border-top: none;
     border-top-right-radius: 10px;
@@ -106,7 +106,7 @@ textarea#chat-message {
     box-shadow: 0px 15px 10px -15px rgba(0,0,0,1);
 }
 .swade.chat-card .card-header:hover {
-    background: #81a8bd;
+    background: var(--scroll-bar-inner);
 }
 
 .swade.chat-card .card-header h3 {
@@ -128,9 +128,9 @@ textarea#chat-message {
     box-shadow: 0px 0px 4px rgba(0,0,0,1);
 }
 .swade.chat-card .card-header a {
-    color: var(--white);
+    color: var(--light-text-colour);
     vertical-align: text-bottom;
 }
 .swade.chat-card .card-header a:hover {
-    text-shadow: 0 0 7px var(--white);
+    text-shadow: 0 0 7px var(--light-text-colour);
 }

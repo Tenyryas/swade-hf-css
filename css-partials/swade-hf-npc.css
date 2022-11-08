@@ -7,7 +7,7 @@
 *********************************/
 
 .swade.sheet .window-content {
-    background: var(--blue);
+    background: var(--box-colour);
     background-image: url("../ui/parchment2.jpg");
 }
 
@@ -15,27 +15,27 @@
 .swade.sheet.actor.character .inventory .items-list .item-header, 
 .swade.sheet.actor .sheet-body .header-field,
 .swade.sheet.actor .inventory .inventory-categories .item-titles {
-    background: var(--dark-blue);
+    background: var(--dark-contrast-colour);
     border: 1px solid transparent;
     border-radius: 6px;
-    color : var(--white);
+    color : var(--light-text-colour);
 }
 
 .swade.sheet .tabs .item {
-    background: var(--dark-blue) !important;
-    color : var(--white);
-    border-color: var(--dark-blue) !important;
+    background: var(--dark-contrast-colour) !important;
+    color : var(--light-text-colour);
+    border-color: var(--dark-contrast-colour) !important;
 }
 
 .swade.sheet .tabs .item:hover, 
 .swade.sheet .tabs .item:focus {
-    background: var(--blue) !important;
-    border-color: var(--dark-blue) !important;
+    background: var(--box-colour) !important;
+    border-color: var(--dark-contrast-colour) !important;
 }
 .swade.sheet .tabs .item.active {
-    background: var(--blue) !important;
-    color : var(--white);
-    border-color: var(--blue) !important;
+    background: var(--box-colour) !important;
+    color : var(--light-text-colour);
+    border-color: var(--box-colour) !important;
 }
 .swade.sheet input[type=text]{
     background: var(--black-point-one);
@@ -98,9 +98,9 @@
 *********************************/
 .swade.sheet.actor .sheet-body .powers input[type=text]{
     background: var(--black-point-one);
-    color: var(--white);
+    color: var(--light-text-colour);
     font-weight: bold;
-    border-color: var(--blue);
+    border-color: var(--box-colour);
 }
 .swade.sheet.actor .powers .arcane-tabs .arcane {
     border: 1px solid var(--black-point-two);
@@ -112,8 +112,8 @@
     border: 1px solid var(--black-point-two);
 }
 .swade.sheet.actor .powers .arcane-tabs .arcane.active {
-    background: var(--blue);
-    border: 1px solid var(--white);
+    background: var(--box-colour);
+    border: 1px solid var(--light-text-colour);
 }
 .swade.sheet.actor .sheet-body .powers input[type=text]::placeholder{
     color: rgba(255, 255, 255, 0.75);
@@ -123,21 +123,21 @@
     border-radius: 10px;
 }
 .swade.sheet.actor .sheet-body .powers .powers-list .power .power-header {
-    background: var(--dark-blue);
+    background: var(--dark-contrast-colour);
     border-bottom: 0px solid var(--black-point-one);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    color: var(--white);
+    color: var(--light-text-colour);
 }
 .swade.sheet.actor .sheet-body .powers .powers-list .power .power-header .fas:hover {
-    filter: drop-shadow(0 0 5px var(--white));
+    filter: drop-shadow(0 0 5px var(--light-text-colour));
     text-shadow: none;
 }
 .swade.sheet.actor .powers .powers-list .power .power-header .item-controls .item-unequipped{
     text-shadow: none;
 }
 .swade.sheet.actor .powers .powers-list .power .power-header .item-controls {
-    color: var(--white);
+    color: var(--light-text-colour);
 }
 .swade.sheet.actor .powers .powers-list .power .power-header .item-controls .fas {
     font-weight: normal;

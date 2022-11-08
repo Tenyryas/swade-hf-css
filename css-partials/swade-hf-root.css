@@ -1,9 +1,11 @@
 :root {
-    --dark-blue: #204461;
-    --dark-blue-box-shadow: 0 0 5px var(--dark-blue);
-    --dark-blue-text-shadow: 0 0 8px var(--dark-blue);
-    --white: #FFFFFF;
-    --blue: #376E8C;
+    --dark-contrast-colour: #204461; /* Hovered Checkbox, Heading text, active tab text, Chat Card heading bg, high contrast text */
+    --dark-contrast-colour-box-shadow: 0 0 5px var(--dark-contrast-colour);
+    --dark-contrast-colour-text-shadow: 0 0 8px var(--dark-contrast-colour);
+    --light-text-colour: #FFFFFF; /* Text in boxes with --box-colour and --dark-contrast-colour */
+    --box-colour: #376E8C; /* Inactive checkbox, bg of size/conviction/additional stat boxes*/
+    --checkbox-rim-colour: #dee8ed; /* Only for the rim on hovered checkboxes */
+    --scroll-bar-inner: #81a8bd; /* The inner part of the scroll bar, hovered chat card heading bg */
     --black-point-one: rgba(0, 0, 0, 0.1);
     --black-point-two: rgba(0, 0, 0, 0.2);
 }
