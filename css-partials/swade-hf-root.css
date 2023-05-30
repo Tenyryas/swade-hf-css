@@ -1,11 +1,26 @@
 :root {
-    --dark-contrast-colour: #204461; /* Hovered Checkbox, Heading text, active tab text, Chat Card heading bg, high contrast text */
-    --dark-contrast-colour-box-shadow: 0 0 5px var(--dark-contrast-colour);
-    --dark-contrast-colour-text-shadow: 0 0 8px var(--dark-contrast-colour);
-    --light-text-colour: #FFFFFF; /* Text in boxes with --box-colour and --dark-contrast-colour */
-    --box-colour: #376E8C; /* Inactive checkbox, bg of size/conviction/additional stat boxes*/
-    --checkbox-rim-colour: #dee8ed; /* Only for the rim on hovered checkboxes */
-    --scroll-bar-inner: #81a8bd; /* The inner part of the scroll bar, hovered chat card heading bg */
+    --background-image: url("../ui/parchment2.jpg");
+    --background-header: url("../ui/header_bg.webp");
+    --dark-contrast-colour: #204461ff; /* Hovered Checkbox, Heading text, active tab text, Chat Card heading bg, high contrast text */
+    --light-text-colour: #ffffffff; /* Text in boxes with --box-colour and --dark-contrast-colour */
+
+    --shadows-colour: #204461ff;
+    --dark-contrast-colour-box-shadow: 0 0 5px var(--shadows-colour);
+    --dark-contrast-colour-text-shadow: 0 0 8px var(--shadows-colour);
+
+    --text-main-colour: #fff;
+    --text-headers-colour: #fff;
+
+    --input-text-color: #ffffffff;
+    --input-bg-color: #204461ff;
+    --input-disabled-text-color: var(--input-bg-color);
+
+    --box-colour: #376e8cff; /* Inactive checkbox, bg of size/conviction/additional stat boxes*/
+    --checkbox-rim-colour: #dee8edff; /* Only for the rim on hovered checkboxes */
+    
+    --scroll-bar-inner: #81a8bdff; /* The inner part of the scroll bar, hovered chat card heading bg */
+    --scroll-bar-border: #204461ff;
+    
     --black-point-one: rgba(0, 0, 0, 0.1);
     --black-point-two: rgba(0, 0, 0, 0.2);
 }

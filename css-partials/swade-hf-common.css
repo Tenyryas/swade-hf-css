@@ -69,7 +69,7 @@
     outline: none;
     border-radius: 3px;
     background: var(--scroll-bar-inner);
-    border: 1px solid var(--dark-contrast-colour);
+    border: 1px solid var(--scroll-bar-border);
 }
 
 
@@ -80,13 +80,13 @@
 *********************************/
 
 #chat-log .chat-message {
-    background-image: url("../ui/parchment2.jpg");
+    background-image: var(--background-image);
 }
 textarea#chat-message {
-    background-image: url("../ui/parchment2.jpg");
+    background-image: var(--background-image);
 }
 #chat-log .chat-message.whisper {
-    background-image: url("../ui/parchment2.jpg");
+    background-image: var(--background-image);
     border: 3px solid #ffd453;
 }
 

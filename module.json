@@ -7,18 +7,20 @@
     {
       "name": "Kyane",
       "url": "https://github.com/Tenyryas",
-      "discord": "Kyane#8654"
+      "discord": "Kyane#8654",
+      "flags": {}
     },
     {
-      "name": "SalieriC"
+      "name": "SalieriC",
+      "flags": {}
     }
   ],
-  "version": "1.4.0",
+  "version": "1.4.1",
   "styles": [
     "swade_hf.css"
   ],
   "manifest": "https://raw.githubusercontent.com/Tenyryas/swade-hf-css/master/module.json",
-  "download": "https://github.com/Tenyryas/swade-hf-css/raw/v1.4.0/swade-hf-css.zip",
+  "download": "https://github.com/Tenyryas/swade-hf-css/raw/v1.4.1/swade-hf-css.zip",
   "compatibility": {
     "minimum": "10",
     "verified": "10"

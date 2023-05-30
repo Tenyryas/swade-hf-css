@@ -7,13 +7,13 @@
 *********************************/
 
 .swade-official .window-content {
-    background-image: url(../ui/parchment2.jpg);
+    background-image: var(--background-image);
 }
 
 
 .swade-official .header,
 .swade-official .effects.active .effect-header {
-    background-image: url(../ui/header_bg.webp);
+    background-image: var(--background-header);
     background-size: 105%;
 }
 
@@ -68,14 +68,12 @@
 *********************************/
 
 .swade-official .armor-display {
-    background-image: url(../ui/sheet_armor.svg);
-    color: var(--dark-contrast-colour);
+    color: var(--input-disabled-text-color);
     padding-bottom: 4px;
 }
 
 .swade-official .parry-display {
-    color: var(--dark-contrast-colour);
-    background-image: url(../ui/sheet_parry.svg);
+    color: var(--input-disabled-text-color);
 }
 
 .swade-official .note-box .note-header {
@@ -101,15 +99,23 @@
 .swade-official .derived input, 
 .swade-official .additional-stats input, 
 .swade-official .currency input,
-.swade-official .powers .pp-counter input {
+.swade-official .powers .pp-counter input,
+.swade-official .additional-stats select {
     background-color: var(--box-colour);
     color: var(--light-text-colour);
+    border-bottom: none;
+    border-radius: 3px;
+    text-align: center;
 }
 
 .swade-official button:hover,
 .swade-official button:focus,
 .swade-official input[type]:hover, 
-.swade-official input[type]:focus {
+.swade-official input[type]:focus, 
+.swade-official .additional-stats select:hover,
+.swade-official .additional-stats select:focus,
+.swade .check-container input:focus+.checkmark,
+.swade-official .check-container input:focus+.checkmark {
     box-shadow: 0 0 5px var(--dark-contrast-colour);
     text-shadow: 0 0 8px var(--darkblue);
 }
@@ -119,18 +125,18 @@
     min-width: 300px;
 }
 
-.swade-official .character-detail input[name="data.advances.rank"]:disabled,
-.swade-official .character-detail input[name="data.advances.value"]:disabled {
-    color: var(--color-text-dark-primary);
-    font-weight: 800;
-    background-color: transparent;
-}
-
 .swade-official input[type=number]:disabled, .swade-official input[type=text]:disabled {
     background: var(--black-point-one);
     border: 1px solid transparent;
-    color: var(--dark-contrast-colour);
+    color: var(--input-disabled-text-color);
     font-weight: bold;
+}
+
+.swade-official .character-detail input[type]:disabled {
+    color: var(--input-disabled-text-color);
+    text-align: center;
+    font-weight: 800;
+    background-color: transparent;
 }
 
 .swade-official .primary .attribute select:hover {
@@ -147,15 +153,25 @@
     color: var(--light-text-colour);
 }
 
+.swade-official .add-effect {
+    color: var(--dark-contrast-colour);
+}
+
+
 .swade-official .advance-add .item-create {
     color: var(--dark-contrast-colour);
 }
 
+.swade-official .add-effect:hover,
+.swade-official .add-effect:focus,
 .swade-official .item-create:focus, 
 .swade-official .item-create:hover {
     color: var(--light-text-colour);
 }
 
+.swade-official button:not(section.secret>button.reveal):hover,
+.swade-official .add-effect:focus,
+.swade-official .add-effect:hover,
 .swade-official .item-create:focus, 
 .swade-official .item-create:hover,
 .swade-official button:hover {

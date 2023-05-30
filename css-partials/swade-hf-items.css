@@ -56,7 +56,7 @@
 *********************************/
 
 .swade-app .window-content {
-    background-image: url(../ui/parchment2.jpg);
+    background-image: var(--background-image);
 }
 
 .swade-item-sheet .header .add-button {

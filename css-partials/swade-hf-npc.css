@@ -8,7 +8,7 @@
 
 .swade.sheet .window-content {
     background: var(--box-colour);
-    background-image: url("../ui/parchment2.jpg");
+    background-image: var(--background-image);
 }
 
 .swade.sheet.item .sheet-body .header-field, 
